@@ -2,12 +2,40 @@
 <html>
     <head>
         <title>List</title>
+        <style>
+            #listbody{
+                height: 100%;
+                width: 100%;
+            }
+            #listlogo{
+                height: 60px;
+                width: 60px;
+            }
+            #listimg1{
+                height: 150px;
+                width: 150px;
+            }
+            #listimg2{
+                height: 150px;
+                width: 150px;
+            }
+            #listimg3{
+                height: 150px;
+                width: 150px;
+            }
+            #listmedia{
+                height: 20px;
+                width: 22px;
+                display: inline;
+            }
+            
+        </style>
     </head>
     <body>
-        <div>
+        <div id="listbody">
             <header>
                 <div>
-            <img src="assests/images/logo.png" alt="logo" height="200px" width="150px">
+            <a href="index.html"><img src="assests/images/logo.png" alt="logo" id="listlogo"></a>
             <a href="login.html" target="_blank" >Login</a>
                 </div>
                
@@ -15,12 +43,12 @@
         <section>
             <div>
                 <ul>
-                    <li><a href="list.html">List View</a></li>
-                    <li><a href="list.html">Map View</a></li>
+                    <li><a href="#listview">List View</a></li>
+                    <li><a href="#mapview">Map View</a></li>
                 </ul>
             </div>
-            <div>
-                <a href="detail.html"><img src="assests/images/raddison.jpg"></a>
+            <div id="listview">
+                <a href="detail.html"><img src="assests/images/raddison.jpg" id="listimg1"></a>
                 <br/>
                 <br/>
                 <a href="detail.html">Radisson Blu Hotel</a>
@@ -33,7 +61,7 @@
                 <br/>
                 <br/>
             
-                <img src="assests/images/lalit.jpg">
+                <img src="assests/images/lalit.jpg" id="listimg2">
                 <br/>
                 <br/>
                 <span>The Lalit New Delhi</span>
@@ -46,7 +74,7 @@
                 <br/>
                 <br/>
             
-                <img src="assests/images/taj.jpg">
+                <img src="assests/images/taj.jpg" id="listimg3">
                 <br/>
                 <br/>
                 <span>Taj Palace</span>
@@ -59,8 +87,8 @@
                 <br/>
                 <br/>
             </div>
-            <div>
-                <img src="assests/images/map.jpg">
+            <div id="mapview">
+                <img src="assests/images/map.jpg" id="listimg4">
                 <br/>
                 <br/>
                 Map View
@@ -72,7 +100,7 @@
                     <br/>
                     <a href="contact.html" target="_blank">Contact Us</a>
                 </div>
-                <div>
+                <div id="listmedia">
                     <a href="https://www.facebook.com" target="_blank" ><span><img src="assests/images/facebook.png" height="20px" width="22px"></span></a>
                     <a href="https://www.instagram.com" target="_blank" ><span><img src="assests/images/instagram.png" height="20px" width="22px"></span></a>
                     <a href="https://www.twitter.com" target="_blank" ><span><img src="assests/images/twitter.png" height="20px" width="22px"></span></a>

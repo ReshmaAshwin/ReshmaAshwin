@@ -2,12 +2,47 @@
 <html>
     <head>
         <title>Index</title>
+        <style>
+            #indexbody{
+                height: 100%;
+                width: 100%;
+            }
+            #indexlogo{
+                height: 60px;
+                width: 60px;
+            }
+            #indexmedia{
+                height: 20px;
+                width: 22px;
+                display: inline;
+            }
+            #indeximg1{
+                height: 150px;
+                width: 150px;
+                display: inline;
+            }
+            #indeximg2{
+                height: 150px;
+                width: 150px;
+                display: inline;
+            }
+            #indeximg3{
+                height: 150px;
+                width: 150px;
+                display: inline;
+            }
+            #indeximg4{
+                height: 150px;
+                width: 150px;
+                display: inline;
+            }
+        </style>
     </head>
     <body>
-        <div>
+        <div id="indexbody">
             <header>
                 <div>
-            <img src="assests/images/logo.png" alt="logo" height="200px" width="150px">
+            <a href="index.html"><img src="assests/images/logo.png" alt="logo" id="indexlogo" ></a>
             <a href="login.html" target="_blank" >Login</a>
            
                 </div>
@@ -16,11 +51,11 @@
             <div>
                 <input type="text"placeholder="City">
             </div>
-            <div>
-               <a href="list.html"> <span><img id="img1" src="assests/images/new-delhi.jpg" height="300px" width="300px"></span></a>
-                <span><img src="assests/images/goa.jpg" height="300px" width="300px"></span>
-                <span><img src="assests/images/hyderarbad.jpg" height="300px" width="300px"></span>
-                <span><img src="assests/images/kolkata-calcutta.jpg" height="300px" width="300px"></span>
+            <div id="indeximg">
+               <a href="list.html"> <span><img id="indeximg1" src="assests/images/new-delhi.jpg" height="300px" width="300px"></span></a>
+                <span><img src="assests/images/goa.jpg" id="indeximg2"></span>
+                <span><img src="assests/images/hyderarbad.jpg" id="indeximg3"></span>
+                <span><img src="assests/images/kolkata-calcutta.jpg" id="indeximg1"></span>
             </div>
             <div>
                 <a href="index.html" target="_blank">View more>></a>
@@ -30,7 +65,7 @@
             <div>
                 <a href="contact.html" target="_blank">Contact Us</a>
             </div>
-            <div>
+            <div id="indexmedia">
                 <a href="https://www.facebook.com" target="_blank" ><span><img src="assests/images/facebook.png" height="20px" width="22px"></span></a>
                 <a href="https://www.instagram.com" target="_blank" ><span><img src="assests/images/instagram.png" height="20px" width="22px"></span></a>
                 <a href="https://www.twitter.com" target="_blank" ><span><img src="assests/images/twitter.png" height="20px" width="22px"></span></a>

@@ -2,19 +2,38 @@
 <html>
     <head>
         <title>Detail</title>
+        <style>
+            #detailbody{
+                height: 100%;
+                width: 100%;
+            }
+            #detaillogo{
+                height: 60px;
+                width: 60px;
+            }
+            #detailmedia{
+                height: 20px;
+                width: 22px;
+                display: inline;
+            }
+            #radimg{
+                height: 500px;
+                width: 500px;
+            }
+        </style>
     </head>
     <body>
-        <div>
+        <div id="detailbody">
             <header>
                 <div>
-            <a href="index.html"><img src="assests/images/logo.png" alt="logo" height="200px" width="150px"></a>
+            <a href="index.html"><img src="assests/images/logo.png" alt="logo" id="detaillogo"></a>
             <a href="login.html" target="_blank" >Login</a>
                 </div>
                
         </header>
         <section>
             <div>
-                <img src="assests/images/raddison.jpg">
+                <img src="assests/images/raddison.jpg" id="radimg">
                 <br/>
                 <form action="payment.html" method="POST">
                     <table>
@@ -69,7 +88,7 @@
                 <br/>
                 <a href="contact.html" target="_blank">Contact Us</a>
             </div>
-            <div>
+            <div id="detailmedia">
                 <a href="https://www.facebook.com" target="_blank" ><span><img src="assests/images/facebook.png" height="20px" width="22px"></span></a>
                 <a href="https://www.instagram.com" target="_blank" ><span><img src="assests/images/instagram.png" height="20px" width="22px"></span></a>
                 <a href="https://www.twitter.com" target="_blank" ><span><img src="assests/images/twitter.png" height="20px" width="22px"></span></a>
