@@ -7,7 +7,7 @@
         <div>
             <header>
                 <div>
-            <img src="assests/images/logo.png" alt="logo" height="200px" width="150px">
+            <a href="index.html"><img src="assests/images/logo.png" alt="logo" height="200px" width="150px"></a>
             <a href="login.html" target="_blank" >Login</a>
                 </div>
                
@@ -16,7 +16,33 @@
             <div>
                 <img src="assests/images/raddison.jpg">
                 <br/>
-                <a href="payment.html">Book Now</a>
+                <form action="payment.html" method="POST">
+                    <table>
+                        <tr>
+                            <td>Adults :</td>
+                            <td><input type="number" min="1"></td>
+                        </tr>
+                        <tr>
+                            <td>Name :</td>
+                            <td><input type="text" required="required"></td>
+                        </tr>
+                        <tr>
+                            <td>From Date :</td>
+                            <td><input type="date" required="required"></td>
+                        </tr>
+                        <tr>
+                            <td>To Date :</td>
+                            <td><input type="date" required="required"></td>
+                        </tr>
+                        <tr>
+                            <td>Total :</td>
+                            <td><input type="text" disabled></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="Book Now"></td>
+                        </tr>
+                    </table>
+                </form>
                 <h2>Radisson Blu Hotel</h2>
                 RATING
                 <br/>
