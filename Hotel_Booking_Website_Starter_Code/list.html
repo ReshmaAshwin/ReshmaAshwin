@@ -3,9 +3,10 @@
     <head>
         <title>List</title>
         <style>
-            #listbody{
-                height: 100%;
-                width: 100%;
+            body{
+                margin: 0;
+                padding: 0;
+                background-color: #e0e0e0;
             }
             #listlogo{
                 height: 60px;
@@ -28,12 +29,31 @@
                 width: 22px;
                 display: inline;
             }
+            .rosylist{
+               
+                background-color: rosybrown;
+            }
+            #listrad{
+                background-color: rgb(132, 136, 139);
+                width: 40%;
+                margin: 2%;
+            }
+            #listlal{
+                background-color: rgb(132, 136, 139);
+                width: 40%;
+                margin: 2%;
+            }
+            #listtaj{
+                background-color: rgb(132, 136, 139);
+                width: 40%;
+                margin: 2%;
+            }
             
         </style>
     </head>
     <body>
         <div id="listbody">
-            <header>
+            <header class="rosylist">
                 <div>
             <a href="index.html"><img src="assests/images/logo.png" alt="logo" id="listlogo"></a>
             <a href="login.html" target="_blank" >Login</a>
@@ -48,6 +68,7 @@
                 </ul>
             </div>
             <div id="listview">
+                <div id="listrad">
                 <a href="detail.html"><img src="assests/images/raddison.jpg" id="listimg1"></a>
                 <br/>
                 <br/>
@@ -60,7 +81,8 @@
                 <a href="detail.html">New Delhi</a>
                 <br/>
                 <br/>
-            
+                </div>
+                <div id="listlal">
                 <img src="assests/images/lalit.jpg" id="listimg2">
                 <br/>
                 <br/>
@@ -73,7 +95,8 @@
                 <span>New Delhi</span>
                 <br/>
                 <br/>
-            
+                </div>
+                <div id="listtaj">  
                 <img src="assests/images/taj.jpg" id="listimg3">
                 <br/>
                 <br/>
@@ -87,25 +110,22 @@
                 <br/>
                 <br/>
             </div>
+            </div>
             <div id="mapview">
                 <img src="assests/images/map.jpg" id="listimg4">
                 <br/>
-                <br/>
                 Map View
+                <br/>
+                <br/>
             </div>
         </section>
             <footer>
-                <div>
-                    <br/>
-                    <br/>
-                    <a href="contact.html" target="_blank">Contact Us</a>
-                </div>
-                <div id="listmedia">
+                <div class="rosylist">
+                    
+                    <a href="contact.html" target="_blank">Contact Us</a><br/>
                     <a href="https://www.facebook.com" target="_blank" ><span><img src="assests/images/facebook.png" height="20px" width="22px"></span></a>
                     <a href="https://www.instagram.com" target="_blank" ><span><img src="assests/images/instagram.png" height="20px" width="22px"></span></a>
-                    <a href="https://www.twitter.com" target="_blank" ><span><img src="assests/images/twitter.png" height="20px" width="22px"></span></a>
-                </div>
-                <div>
+                    <a href="https://www.twitter.com" target="_blank" ><span><img src="assests/images/twitter.png" height="20px" width="22px"></span></a><br/>
                     <span>&copy;2020 ROOM SEARCH PVT LTD</span>
                 </div>
             </footer>

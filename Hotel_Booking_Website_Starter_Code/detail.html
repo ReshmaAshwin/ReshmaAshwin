@@ -3,9 +3,15 @@
     <head>
         <title>Detail</title>
         <style>
-            #detailbody{
-                height: 100%;
+            body{
+                margin: 0;
+                padding: 0;
+                background-color: #e0e0e0;
+            }
+            .deheader{
                 width: 100%;
+                display: block;
+                background-color: rosybrown;
             }
             #detaillogo{
                 height: 60px;
@@ -19,23 +25,31 @@
             #radimg{
                 height: 500px;
                 width: 500px;
+                margin: 2% 4% 0 4%;
             }
+            #formlist{
+                margin : 0 4% 1% 4%;
+            }
+            #raddes{
+                margin: 1% 4% 2% 4%;
+            }
+           
         </style>
     </head>
     <body>
-        <div id="detailbody">
+        <div>
             <header>
-                <div>
+                <div class="deheader">
             <a href="index.html"><img src="assests/images/logo.png" alt="logo" id="detaillogo"></a>
             <a href="login.html" target="_blank" >Login</a>
                 </div>
                
         </header>
         <section>
-            <div>
+            <div id="radlist">
                 <img src="assests/images/raddison.jpg" id="radimg">
                 <br/>
-                <form action="payment.html" method="POST">
+                <form action="payment.html" method="POST" id="formlist">
                     <table>
                         <tr>
                             <td>Adults :</td>
@@ -62,6 +76,7 @@
                         </tr>
                     </table>
                 </form>
+                <div id="raddes">
                 <h2>Radisson Blu Hotel</h2>
                 RATING
                 <br/>
@@ -80,20 +95,19 @@
                 </ul>
                 <h5>Description</h5>
               <span>Radisson Blu is an international chain of hotels operated by Radisson Hotels. With roots dating back to the 1960s, the Radisson Blu brand name came into existence in 2009 with a rebranding from Radisson SAS. Its hotels are found in major cities, key airport gateways and leisure destinations.</span>
+              
+            </div>
             </div>
         </section>
         <footer>
-            <div>
-                <br/>
-                <br/>
+            <div class="deheader">
+                
                 <a href="contact.html" target="_blank">Contact Us</a>
-            </div>
-            <div id="detailmedia">
+            <br/>
                 <a href="https://www.facebook.com" target="_blank" ><span><img src="assests/images/facebook.png" height="20px" width="22px"></span></a>
                 <a href="https://www.instagram.com" target="_blank" ><span><img src="assests/images/instagram.png" height="20px" width="22px"></span></a>
                 <a href="https://www.twitter.com" target="_blank" ><span><img src="assests/images/twitter.png" height="20px" width="22px"></span></a>
-            </div>
-            <div>
+                <br/>
                 <span>&copy;2020 ROOM SEARCH PVT LTD</span>
             </div>
         </footer>

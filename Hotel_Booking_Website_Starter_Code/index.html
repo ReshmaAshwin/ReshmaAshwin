@@ -3,9 +3,11 @@
     <head>
         <title>Index</title>
         <style>
-            #indexbody{
-                height: 100%;
-                width: 100%;
+            body{
+                
+                margin: 0;
+                padding: 0;
+                background-color: #e0e0e0;
             }
             #indexlogo{
                 height: 60px;
@@ -16,42 +18,69 @@
                 width: 22px;
                 display: inline;
             }
+            .indeximg{
+                margin-left: 15%;
+                margin-right: 15%;
+            }
             #indeximg1{
                 height: 150px;
                 width: 150px;
                 display: inline;
+                padding: 4%;
+                border-radius: 25%;
             }
             #indeximg2{
                 height: 150px;
                 width: 150px;
                 display: inline;
+                padding: 4%;
+                border-radius: 25%;
             }
             #indeximg3{
                 height: 150px;
                 width: 150px;
                 display: inline;
+                padding: 4%;
+                border-radius: 25%;
             }
             #indeximg4{
                 height: 150px;
                 width: 150px;
                 display: inline;
+                padding: 4%;
+                border-radius: 25%;
+            }
+            .inrosy{
+                
+               
+                background-color: rosybrown;
+            }
+            .cityin{
+               
+                height: 380px;
+                width: 100vw;
+                background-image: url(assests/images/india.jpg);
+                background-size: 100vw 380px;
+                background-position: -webkit-center;
+                background-repeat: no-repeat;
+               
             }
         </style>
     </head>
     <body>
         <div id="indexbody">
             <header>
-                <div>
+                <div class="inrosy">
             <a href="index.html"><img src="assests/images/logo.png" alt="logo" id="indexlogo" ></a>
             <a href="login.html" target="_blank" >Login</a>
            
                 </div>
         </header>
         <section>
-            <div>
-                <input type="text"placeholder="City">
+            <div class="cityin" >
+                <input type="text"placeholder="City" >
             </div>
-            <div id="indeximg">
+            <div class="indeximg">
                <a href="list.html"> <span><img id="indeximg1" src="assests/images/new-delhi.jpg" height="300px" width="300px"></span></a>
                 <span><img src="assests/images/goa.jpg" id="indeximg2"></span>
                 <span><img src="assests/images/hyderarbad.jpg" id="indeximg3"></span>
@@ -62,15 +91,13 @@
             </div>
         </section>
         <footer>
-            <div>
-                <a href="contact.html" target="_blank">Contact Us</a>
-            </div>
-            <div id="indexmedia">
+            <div class="inrosy">
+                <a href="contact.html" target="_blank">Contact Us</a><br/>
                 <a href="https://www.facebook.com" target="_blank" ><span><img src="assests/images/facebook.png" height="20px" width="22px"></span></a>
                 <a href="https://www.instagram.com" target="_blank" ><span><img src="assests/images/instagram.png" height="20px" width="22px"></span></a>
                 <a href="https://www.twitter.com" target="_blank" ><span><img src="assests/images/twitter.png" height="20px" width="22px"></span></a>
-            </div>
-            <div>
+                <br/>
+
                 <span>&copy;2020 ROOM SEARCH PVT LTD</span>
             </div>
         </footer>
