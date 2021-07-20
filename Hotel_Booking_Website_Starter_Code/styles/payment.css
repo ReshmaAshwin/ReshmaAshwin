@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+body{
+                
+    background-color: #e0e0e0;
+    font-family: sans-serif;
+    position: relative;
+    min-height: 100%;
+    min-height: 100vh;    
+    
+}
+header{
+    position: fixed;
+    background-color: rosybrown;
+    width: 100%;
+    height: 13vh;
+    z-index: 1;
+
+}
+header #indexlogo{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    margin: 1%;
+    text-align: left;
+    
+}
+header #indexlogin{
+    text-decoration: none;
+    float: right;
+    margin-top: 2.5%;
+    margin-right: 2%;
+    color: black;
+}
+section{
+    min-height: calc(100vh - 65.69px);
+    padding-top: 125px;
+}
+#payrad{
+    height: 500px;
+    width: 500px;
+}
+.payson{
+    height: 20%;
+    width: 50%;
+    background-color: rgb(132, 136,139);
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    
+}
+#paydet{
+    margin: 2%;
+}
+#paytariff{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2%;
+    padding: 1% 2%;
+}
+#paym{
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+#paym a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 100px;
+    
+}
+
+footer{
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 10vh;
+    width: 100%;
+    background-color: rosybrown;
+   
+    z-index: 3;
+}
+footer #con a{
+   
+    text-decoration: none;
+    color: black;
+    float: left;
+    padding: 20px 10px;
+    
+}
+
+footer #med{
+    
+    float: right;
+    padding: 20px 10px;
+    
+}footer #copy{
+
+    text-align: center;
+}
+
+footer #copy a{
+    
+    padding: 2px;
+    font-size: 10px;
+    
+    
+}

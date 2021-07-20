@@ -2,104 +2,53 @@
 <html>
     <head>
         <title>Index</title>
-        <style>
-            body{
-                
-                margin: 0;
-                padding: 0;
-                background-color: #e0e0e0;
-            }
-            #indexlogo{
-                height: 60px;
-                width: 60px;
-            }
-            #indexmedia{
-                height: 20px;
-                width: 22px;
-                display: inline;
-            }
-            .indeximg{
-                margin-left: 15%;
-                margin-right: 15%;
-            }
-            #indeximg1{
-                height: 150px;
-                width: 150px;
-                display: inline;
-                padding: 4%;
-                border-radius: 25%;
-            }
-            #indeximg2{
-                height: 150px;
-                width: 150px;
-                display: inline;
-                padding: 4%;
-                border-radius: 25%;
-            }
-            #indeximg3{
-                height: 150px;
-                width: 150px;
-                display: inline;
-                padding: 4%;
-                border-radius: 25%;
-            }
-            #indeximg4{
-                height: 150px;
-                width: 150px;
-                display: inline;
-                padding: 4%;
-                border-radius: 25%;
-            }
-            .inrosy{
-                
-               
-                background-color: rosybrown;
-            }
-            .cityin{
-               
-                height: 380px;
-                width: 100vw;
-                background-image: url(assests/images/india.jpg);
-                background-size: 100vw 380px;
-                background-position: -webkit-center;
-                background-repeat: no-repeat;
-               
-            }
-        </style>
+        <link rel="stylesheet" href="styles/index.css" >
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     </head>
     <body>
         <div id="indexbody">
             <header>
-                <div class="inrosy">
+                <div class="inrosy" id="inhead">
             <a href="index.html"><img src="assests/images/logo.png" alt="logo" id="indexlogo" ></a>
-            <a href="login.html" target="_blank" >Login</a>
+            <a href="login.html" target="_blank" id="indexlogin">Login</a>
            
                 </div>
         </header>
-        <section>
-            <div class="cityin" >
-                <input type="text"placeholder="City" >
+        <section >
+            <div >
+            <div id="cityin" >
+              <a>  <input id="cityind" type="text"placeholder="City"  ></a>
             </div>
-            <div class="indeximg">
+            
+            <div class="indeximg" >
                <a href="list.html"> <span><img id="indeximg1" src="assests/images/new-delhi.jpg" height="300px" width="300px"></span></a>
                 <span><img src="assests/images/goa.jpg" id="indeximg2"></span>
                 <span><img src="assests/images/hyderarbad.jpg" id="indeximg3"></span>
                 <span><img src="assests/images/kolkata-calcutta.jpg" id="indeximg1"></span>
+                <br/>
             </div>
-            <div>
-                <a href="index.html" target="_blank">View more>></a>
+                <div id="img">
+                <a id="viewind" href="index.html" target="_blank">View more>></a>
+                </div>
+            
             </div>
         </section>
-        <footer>
-            <div class="inrosy">
-                <a href="contact.html" target="_blank">Contact Us</a><br/>
+        <footer >
+            <div class="infoot">
+                <div id="con">
+                <a href="contact.html" target="_blank">Contact Us</a>
+                </div>
+                <div id="med">
                 <a href="https://www.facebook.com" target="_blank" ><span><img src="assests/images/facebook.png" height="20px" width="22px"></span></a>
                 <a href="https://www.instagram.com" target="_blank" ><span><img src="assests/images/instagram.png" height="20px" width="22px"></span></a>
                 <a href="https://www.twitter.com" target="_blank" ><span><img src="assests/images/twitter.png" height="20px" width="22px"></span></a>
+                </div>
                 <br/>
-
-                <span>&copy;2020 ROOM SEARCH PVT LTD</span>
+                <div id="copy">
+                <a>&copy;2020 ROOM SEARCH PVT LTD</a>
+                </div>
             </div>
+            
         </footer>
         
         </div>

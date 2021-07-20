@@ -2,64 +2,27 @@
 <html>
     <head>
         <title>Payment</title>
-        <style>
-            body{
-                background-color: #e0e0e0;
-                margin: 0;
-                padding: 0;
-            }
-            #paylogo{
-                height: 60px;
-                width: 60px;
-            }
-            #payrad{
-                height: 500px;
-                width: 500px;
-            }
-            .paymedia{
-                height: 20px;
-                width: 22px;
-                display: inline;
-            }
-            .headerpay{
-                background-color: rosybrown;
-            }
-            .payson{
-                height: 20%;
-                width: 50%;
-                background-color: rgb(132, 136,139);
-                margin: 0 auto;
-                justify-content: center;
-                align-items: center;
-                margin-top: 2%;
-                margin-bottom: 2%;
-            }
-            #paydet{
-                margin: 2%;
-            }
-            #paytariff{
-                border: 1px solid black;
-                border-radius: 5px;
-                margin: 2%;
-                padding: 1% 2%;
-            }
-        </style>
+          
+        <link rel="stylesheet" href="styles/payment.css" >
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
     </head>
     <body>
-        <div id="paybody">
+        <div>
             <header>
-                <div class="headerpay">
-            <a href="index.html"><img src="assests/images/logo.png" alt="logo" id="paylogo"></a>
-            <a href="login.html" target="_blank" >Login</a>
+                <div>
+            <a href="index.html"><img src="assests/images/logo.png" alt="logo" id="indexlogo" ></a>
+            <a href="login.html" target="_blank" id="indexlogin">Login</a>
                 </div>
-               
-        </header>
-        <section>
-            <div>
+            </header>
+            <section>
+             <div class="section">
                 <div class="payson" >
                 <img src="assests/images/raddison.jpg" id="payrad">
                 <br/>
+                <br/>
                 <h2>Radisson Blu Hotel</h2>
+                <br/>
+                
                 <span>#38 0f 1,289 Hotels in New Delhi</span>
                 <br/>
                 <br/>
@@ -87,18 +50,28 @@
                     <span style="font-weight: bold;">Total : </span>RS.10000
                     <br/>
                     </div>
+                    <div id="paym">
                 <a href="payment.html">Pay Now</a>
                 </div>
-        </section>
-        <footer>
-            <div class="headerpay">
-               
-                <a href="contact.html" target="_blank">Contact Us</a><br/>
+                </div> 
+        </section>  
+        <footer >
+            <div class="foot" >
+                <div id="con">
+                <a href="contact.html" target="_blank">Contact Us</a>
+                </div>
+                <div id="med">
                 <a href="https://www.facebook.com" target="_blank" ><span><img src="assests/images/facebook.png" height="20px" width="22px"></span></a>
                 <a href="https://www.instagram.com" target="_blank" ><span><img src="assests/images/instagram.png" height="20px" width="22px"></span></a>
-                <a href="https://www.twitter.com" target="_blank" ><span><img src="assests/images/twitter.png" height="20px" width="22px"></span></a><br/>
-                <span>&copy;2020 ROOM SEARCH PVT LTD</span>
+                <a href="https://www.twitter.com" target="_blank" ><span><img src="assests/images/twitter.png" height="20px" width="22px"></span></a>
+                </div>
+                <br/>
+                <br/>
+                <div id="copy">
+                <a>&copy;2020 ROOM SEARCH PVT LTD</a>
+                </div>
             </div>
+            
         </footer>
         
         </div>

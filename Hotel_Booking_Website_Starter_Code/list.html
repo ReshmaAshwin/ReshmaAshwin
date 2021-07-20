@@ -2,77 +2,34 @@
 <html>
     <head>
         <title>List</title>
-        <style>
-            body{
-                margin: 0;
-                padding: 0;
-                background-color: #e0e0e0;
-            }
-            #listlogo{
-                height: 60px;
-                width: 60px;
-            }
-            #listimg1{
-                height: 150px;
-                width: 150px;
-            }
-            #listimg2{
-                height: 150px;
-                width: 150px;
-            }
-            #listimg3{
-                height: 150px;
-                width: 150px;
-            }
-            #listmedia{
-                height: 20px;
-                width: 22px;
-                display: inline;
-            }
-            .rosylist{
-               
-                background-color: rosybrown;
-            }
-            #listrad{
-                background-color: rgb(132, 136, 139);
-                width: 40%;
-                margin: 2%;
-            }
-            #listlal{
-                background-color: rgb(132, 136, 139);
-                width: 40%;
-                margin: 2%;
-            }
-            #listtaj{
-                background-color: rgb(132, 136, 139);
-                width: 40%;
-                margin: 2%;
-            }
-            
-        </style>
+        <link rel="stylesheet" href="styles/list.css" >
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     </head>
     <body>
         <div id="listbody">
-            <header class="rosylist">
-                <div>
-            <a href="index.html"><img src="assests/images/logo.png" alt="logo" id="listlogo"></a>
-            <a href="login.html" target="_blank" >Login</a>
+            <header>
+                <div class="inrosy" id="inhead">
+            <a href="index.html"><img src="assests/images/logo.png" alt="logo" id="indexlogo" ></a>
+            <a href="login.html" target="_blank" id="indexlogin">Login</a>
+           
                 </div>
-               
         </header>
         <section>
-            <div>
-                <ul>
-                    <li><a href="#listview">List View</a></li>
-                    <li><a href="#mapview">Map View</a></li>
-                </ul>
+            <div class="Listsec">
+            <div class="liview">
+                
+                    <a href="#listview">List View</a>
+                    <a href="#mapview">Map View</a>
+                
             </div>
-            <div id="listview">
-                <div id="listrad">
+            <div >
+                
+                <div  class="listview">
+                    
                 <a href="detail.html"><img src="assests/images/raddison.jpg" id="listimg1"></a>
                 <br/>
                 <br/>
-                <a href="detail.html">Radisson Blu Hotel</a>
+                <a class="title"href="detail.html">Radisson Blu Hotel</a>
                 <br/>
                 <br/>
                 <a href="detail.html">5 Star</a>
@@ -82,11 +39,11 @@
                 <br/>
                 <br/>
                 </div>
-                <div id="listlal">
+                <div id="listlal" class="listview">
                 <img src="assests/images/lalit.jpg" id="listimg2">
                 <br/>
                 <br/>
-                <span>The Lalit New Delhi</span>
+                <span class="title">The Lalit New Delhi</span>
                 <br/>
                 <br/>
                 <span></span>4.5 Star</span>
@@ -96,11 +53,11 @@
                 <br/>
                 <br/>
                 </div>
-                <div id="listtaj">  
+                <div id="listtaj" class="listview">  
                 <img src="assests/images/taj.jpg" id="listimg3">
                 <br/>
                 <br/>
-                <span>Taj Palace</span>
+                <span class="title">Taj Palace</span>
                 <br/>
                 <br/>
                 <span></span>4.0 Star</span>
@@ -111,6 +68,7 @@
                 <br/>
             </div>
             </div>
+            
             <div id="mapview">
                 <img src="assests/images/map.jpg" id="listimg4">
                 <br/>
@@ -118,17 +76,27 @@
                 <br/>
                 <br/>
             </div>
+            </div>
+            
         </section>
-            <footer>
-                <div class="rosylist">
-                    
-                    <a href="contact.html" target="_blank">Contact Us</a><br/>
-                    <a href="https://www.facebook.com" target="_blank" ><span><img src="assests/images/facebook.png" height="20px" width="22px"></span></a>
-                    <a href="https://www.instagram.com" target="_blank" ><span><img src="assests/images/instagram.png" height="20px" width="22px"></span></a>
-                    <a href="https://www.twitter.com" target="_blank" ><span><img src="assests/images/twitter.png" height="20px" width="22px"></span></a><br/>
-                    <span>&copy;2020 ROOM SEARCH PVT LTD</span>
+        <footer >
+            <div class="infoot">
+                <div id="con">
+                <a href="contact.html" target="_blank">Contact Us</a>
                 </div>
-            </footer>
+                <div id="med">
+                <a href="https://www.facebook.com" target="_blank" ><span><img src="assests/images/facebook.png" height="20px" width="22px"></span></a>
+                <a href="https://www.instagram.com" target="_blank" ><span><img src="assests/images/instagram.png" height="20px" width="22px"></span></a>
+                <a href="https://www.twitter.com" target="_blank" ><span><img src="assests/images/twitter.png" height="20px" width="22px"></span></a>
+                </div>
+                <br/>
+                <br/>
+                <div id="copy">
+                <a>&copy;2020 ROOM SEARCH PVT LTD</a>
+                </div>
+            </div>
+            
+        </footer>
         </div>
     </body>
 </html>

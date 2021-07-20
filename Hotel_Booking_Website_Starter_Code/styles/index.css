@@ -1,0 +1,168 @@
+
+            *{
+                padding: 0;
+                margin: 0;
+                
+                box-sizing: border-box;
+            }
+            body{
+                            
+                background-color: #e0e0e0;
+                font-family: sans-serif;
+                position: relative;
+                min-height: 100%;
+                min-height: 100vh;    
+                
+            }
+            header{
+                position: fixed;
+                background-color: rosybrown;
+                width: 100%;
+                height: 13vh;
+                z-index: 1;
+            
+            }
+            header #indexlogo{
+                position: relative;
+                height: 60px;
+                width: 60px;
+                margin: 1%;
+                text-align: left;
+                
+            }
+            header #indexlogin{
+                text-decoration: none;
+                float: right;
+                margin-top: 2.5%;
+                margin-right: 2%;
+                color: black;
+            }
+            section{
+                min-height: calc(100vh - 65.69px);
+                padding-bottom: 50px;
+            }
+            #cityin{
+               
+                height: 380px;
+                width: 100vw;
+                background-image: url(../assests/images/india.jpg);
+                background-size: 100% 380px;
+                background-position: -webkit-center;
+                background-repeat: no-repeat;
+               
+            }
+            a #cityind{
+            
+                border-color: transparent;
+                border-radius: 12px;
+                margin: 12% 35%;
+                width: 30%;
+                padding: 10px;
+                background-color: #f1f1f1;
+                font-size: 16px;
+
+            }
+            #indexmedia{
+                height: 20px;
+                width: 22px;
+                display: inline;
+            }
+            .indeximg{
+                text-align: center;
+                margin-bottom: 0%;
+                margin-left: 15%;
+                margin-right: 15%;
+            }
+            #img{
+                height: 50px;
+                width: 100%;
+                text-align: center;
+                padding-bottom: 70px;
+                
+            }
+            #viewind{
+                text-align: center;
+                text-decoration: none;
+                color: black;
+                
+            }
+            #indeximg1{
+                height: 200px;
+                width: 200px;
+                display: inline;
+                padding: 4%;
+                
+                border-radius: 25%;
+            }
+            #indeximg2{
+                height: 200px;
+                width: 200px;
+                display: inline;
+                padding: 4%;
+                
+                border-radius: 25%;
+            }
+            #indeximg3{
+                height: 200px;
+                width: 200px;
+                display: inline;
+                padding: 4%;
+                
+                border-radius: 25%;
+            }
+            #indeximg4{
+                height: 150px;
+                width: 150px;
+                display: inline;
+                padding: 4%;
+                
+                border-radius: 25%;
+            }
+            #ia{
+                width: 100%;
+                text-decoration: none;
+                color: black;
+                text-align: center;
+                padding: 10px;
+            }
+            #ia a{
+                text-decoration: none;
+                color: black;
+            }
+            footer{
+    
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                height: 10vh;
+                width: 100%;
+                background-color: rosybrown;
+               
+                z-index: 3;
+            }
+            footer #con a{
+               
+                text-decoration: none;
+                color: black;
+                float: left;
+                padding: 20px 10px;
+                
+            }
+            
+            footer #med{
+                
+                float: right;
+                padding: 20px 10px;
+                
+            }footer #copy{
+            
+                text-align: center;
+            }
+            
+            footer #copy a{
+                
+                padding: 2px;
+                font-size: 10px;
+                
+                
+            }

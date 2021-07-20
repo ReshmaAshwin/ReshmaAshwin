@@ -2,48 +2,17 @@
 <html>
     <head>
         <title>Detail</title>
-        <style>
-            body{
-                margin: 0;
-                padding: 0;
-                background-color: #e0e0e0;
-            }
-            .deheader{
-                width: 100%;
-                display: block;
-                background-color: rosybrown;
-            }
-            #detaillogo{
-                height: 60px;
-                width: 60px;
-            }
-            #detailmedia{
-                height: 20px;
-                width: 22px;
-                display: inline;
-            }
-            #radimg{
-                height: 500px;
-                width: 500px;
-                margin: 2% 4% 0 4%;
-            }
-            #formlist{
-                margin : 0 4% 1% 4%;
-            }
-            #raddes{
-                margin: 1% 4% 2% 4%;
-            }
-           
-        </style>
+        <link rel="stylesheet" href="styles/detail.css" >
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     </head>
     <body>
         <div>
             <header>
-                <div class="deheader">
-            <a href="index.html"><img src="assests/images/logo.png" alt="logo" id="detaillogo"></a>
-            <a href="login.html" target="_blank" >Login</a>
+                <div class="inrosy" id="inhead">
+            <a href="index.html"><img src="assests/images/logo.png" alt="logo" id="indexlogo" ></a>
+            <a href="login.html" target="_blank" id="indexlogin">Login</a>
+           
                 </div>
-               
         </header>
         <section>
             <div id="radlist">
@@ -78,6 +47,7 @@
                 </form>
                 <div id="raddes">
                 <h2>Radisson Blu Hotel</h2>
+                <br/>
                 RATING
                 <br/>
                 <br/>
@@ -86,30 +56,41 @@
                 <br/>
                 AMENITIES
                 <br/>
-                <ul>
+                <br/>
+                <ul id="ull">
                     <li>Room service</li>
                     <li>Restaurant</li>
                     <li>Business center</li>
                     <li>Fitness center</li>
                     <li>Pool</li>
                 </ul>
-                <h5>Description</h5>
+                <br/>
+                
+                <h5>DESCRIPTION</h5>
+                <br/>
+                
               <span>Radisson Blu is an international chain of hotels operated by Radisson Hotels. With roots dating back to the 1960s, the Radisson Blu brand name came into existence in 2009 with a rebranding from Radisson SAS. Its hotels are found in major cities, key airport gateways and leisure destinations.</span>
               
             </div>
             </div>
         </section>
-        <footer>
-            <div class="deheader">
-                
+        <footer >
+            <div class="infoot">
+                <div id="con">
                 <a href="contact.html" target="_blank">Contact Us</a>
-            <br/>
+                </div>
+                <div id="med">
                 <a href="https://www.facebook.com" target="_blank" ><span><img src="assests/images/facebook.png" height="20px" width="22px"></span></a>
                 <a href="https://www.instagram.com" target="_blank" ><span><img src="assests/images/instagram.png" height="20px" width="22px"></span></a>
                 <a href="https://www.twitter.com" target="_blank" ><span><img src="assests/images/twitter.png" height="20px" width="22px"></span></a>
+                </div>
                 <br/>
-                <span>&copy;2020 ROOM SEARCH PVT LTD</span>
+                <br/>
+                <div id="copy">
+                <a>&copy;2020 ROOM SEARCH PVT LTD</a>
+                </div>
             </div>
+            
         </footer>
         
         </div>
