@@ -8,54 +8,64 @@
     <body>
         <div>
             <header>
-                <div class="inrosy" id="inhead">
+                <div>
             <a href="index.html"><img src="assests/images/logo.png" alt="logo" id="indexlogo" ></a>
+        </div>
+            <div id="login">
             <a href="login.html" target="_blank" id="indexlogin">Login</a>
-           
-                </div>
+            </div>
+                
         </header>
         <section>
-            <div id="radlist">
-                <img src="assests/images/raddison.jpg" id="radimg">
-                <br/>
-                <form action="payment.html" method="POST" id="formlist">
-                    <table>
-                        <tr>
-                            <td>Adults :</td>
-                            <td><input type="number" min="1"></td>
-                        </tr>
-                        <tr>
-                            <td>Name :</td>
-                            <td><input type="text" required="required"></td>
-                        </tr>
-                        <tr>
-                            <td>From Date :</td>
-                            <td><input type="date" required="required"></td>
-                        </tr>
-                        <tr>
-                            <td>To Date :</td>
-                            <td><input type="date" required="required"></td>
-                        </tr>
-                        <tr>
-                            <td>Total :</td>
-                            <td><input type="text" disabled></td>
-                        </tr>
-                        <tr>
-                            <td><input type="submit" value="Book Now"></td>
-                        </tr>
-                    </table>
+            <!-- ------------------------------------------------------ -->
+            <div class="radlist">
+                <div class="img">
+                <img id="radmg" src="assests/images/raddison.jpg" >
+                </div>
+                
+                <div class="form">
+                    <form   action="payment.html" method="POST" id="formlist">
+                    
+                        <div class="flex-input">
+                            <label>Adults       :</label>
+                           <span><input type="number" min="1"></span>
+                       
+                        </div>
+                        <div class="flex-input">
+                            <label>Name :</label>
+                            <input type="text" required="required">
+                        </div>
+                        <div class="flex-input">
+                            <label>From Date :</label>
+                            <input type="date" required="required">
+                        </div>
+                        <div class="flex-input">
+                            <label>To Date :</label>
+                            <input type="date" required="required">
+                        </div>
+                        <div class="flex-input">
+                            <label>Total :</label>
+                            <input type="text" disabled>
+                        </div>
+                        <div class="flex-input">
+                            <input type="submit" value="Book Now">
+                        </div>
+                   
                 </form>
+            </div>
+            </div>
+                <!-- -------------------------------------------- -->
                 <div id="raddes">
                 <h2>Radisson Blu Hotel</h2>
                 <br/>
-                RATING
+                <div class="cur">RATING</div>
+                
                 <br/>
+                <div>5 Star</div>
+                
                 <br/>
-                5 Star
-                <br/>
-                <br/>
-                AMENITIES
-                <br/>
+                <div class="cur">AMENITIES</div>
+                
                 <br/>
                 <ul id="ull">
                     <li>Room service</li>
@@ -66,32 +76,30 @@
                 </ul>
                 <br/>
                 
-                <h5>DESCRIPTION</h5>
+               <div class="cur"> <h5>DESCRIPTION</h5></div>
                 <br/>
                 
               <span>Radisson Blu is an international chain of hotels operated by Radisson Hotels. With roots dating back to the 1960s, the Radisson Blu brand name came into existence in 2009 with a rebranding from Radisson SAS. Its hotels are found in major cities, key airport gateways and leisure destinations.</span>
               
             </div>
-            </div>
+            
         </section>
         <footer >
-            <div class="infoot">
-                <div id="con">
-                <a href="contact.html" target="_blank">Contact Us</a>
-                </div>
-                <div id="med">
-                <a href="https://www.facebook.com" target="_blank" ><span><img src="assests/images/facebook.png" height="20px" width="22px"></span></a>
-                <a href="https://www.instagram.com" target="_blank" ><span><img src="assests/images/instagram.png" height="20px" width="22px"></span></a>
-                <a href="https://www.twitter.com" target="_blank" ><span><img src="assests/images/twitter.png" height="20px" width="22px"></span></a>
-                </div>
-                <br/>
-                <br/>
-                <div id="copy">
-                <a>&copy;2020 ROOM SEARCH PVT LTD</a>
-                </div>
-            </div>
             
-        </footer>
+            <div id="con">
+            <a href="contact.html" target="_blank">Contact Us</a>
+            </div>
+            <div id="med">
+            <a href="https://www.facebook.com" target="_blank" ><span><img src="assests/images/facebook.png" height="20px" width="22px"></span></a>
+            <a href="https://www.instagram.com" target="_blank" ><span><img src="assests/images/instagram.png" height="20px" width="22px"></span></a>
+            <a href="https://www.twitter.com" target="_blank" ><span><img src="assests/images/twitter.png" height="20px" width="22px"></span></a>
+            </div>
+            <div id="copy">
+            <a>&copy;2020 ROOM SEARCH PVT LTD</a>
+            </div>
+        
+        
+    </footer>
         
         </div>
     </body>
