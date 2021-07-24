@@ -1,76 +1,95 @@
 *{
     padding: 0;
     margin: 0;
-    
     box-sizing: border-box;
 }
 body{
                 
     background-color: #e0e0e0;
     font-family: sans-serif;
-    
     min-height: 100%;
     min-height: 100vh;    
-    position: relative;
-}
-header{
-    display:flex;
-    justify-content: space-between;
-    position: fixed;
-    background-color: rosybrown;
-    width: 100%;
-    height: 13vh;
-    z-index: 1;
-    padding: 1%;
     
+    z-index: -30;
+}
 
-}
-header #indexlogo{
-    position: relative;
-    height: 60px;
-    width: 60px;
-    
+
+.btn-light{
+    margin-left: 94%;
+    margin-top: 1.5%; 
+    z-index: 10;
+    position: fixed;
+ }
+.btn-primary{
    
-    
+    margin: 2%;
+ }
+label{
+    padding-top: 2%;
+ }
+.modal-footer{
+    justify-content: center;
+    padding: 2%;
+    height: 80px;
+ }
+
+input[type="text"]{
+width:300px;
 }
-header #indexlogin{
-    text-decoration: none;
-    
-    
-    color: black;
+.form-group{
+display: flex;
+justify-content: space-around;
 }
-header #login{
+#modal-id{
+margin-top: 10%;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: rosybrown;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 11vh;
+}
+ header #indexlogo{
+    position: fixed;
     height: 60px;
     width: 60px;
-    padding-top: 1.5%;
-    text-align: center;
+    margin: 1%;
+   z-index: 10;
+   margin-top: 0.5%;
+    
 }
+
 section{
     min-height: calc(100vh - 65.69px);
-    margin-bottom: 2%;
-    padding: 10%;
-    padding-top: 10%;
-}
-.liview{
-    text-align: center;
-    padding: 5px;
-    padding-right: 50px;
+    padding-bottom: 40%;
+    padding-top: 100px;
+    
+} 
 
+
+#sect{
+    height: 100px;
+    justify-content: center;
 }
-.liview a{
-    text-decoration: none;
-    color: black;
-    display: inline;
-    padding: 10px;
-    font-weight: bold;
+
+
+.liview{
+    display: flex;
+    justify-content: center;
 }
+
 
 .listview{
     
     display: flex;
     justify-content:start;
-    width: 40%;
-    margin: 2%;
+    width: 400px;
+    margin: 3%;
+    margin-left: 12%;
     
     background-color: lightgray;
     
@@ -80,6 +99,9 @@ section{
 .listde{
     width: 200px;
     padding: 3%;
+}
+.listde:hover{
+    background-color: rosybrown;
 }
 .listde p{
     margin: 1%;
@@ -97,6 +119,14 @@ section{
 .title{
     font-weight: bold;
 }
+#all{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+div a:hover{
+    text-decoration: none;
+}
 #listimg1{
     height: 200px;
     width: 200px;
@@ -110,12 +140,35 @@ section{
     height: 200px;
     width: 200px;
 }
+#lv .btn:focus{
+    display: div;
+}
 #mapview{
     display: none;
 }
+#mv .btn:focus{
+    display: class;
+}
 
+.liview .btn:focus{
+    background-color:#0275d8;
+}
+
+.btn-info{
+    margin-left: 2%;
+    
+    
+    margin-top: 470px;
+    z-index: 10;
+    position: fixed;
+    
+ }
+ 
+.form{
+   display: flex;
+}
 footer{
-    display: flex;
+    
     position: fixed;
     justify-content: space-between;
     left: 0;
@@ -126,17 +179,34 @@ footer{
    
     
 }
-footer div{
+ #foot{
+    display: flex;
     margin: 1.5% 2%;
+    justify-content: space-between;
+    z-index: 10;
+    
+    width: 97.5%;
+} 
+
+#con{
+    z-index: 10;
+    
+    
+    
 }
-footer #con a{
+ #con a{
      text-decoration: none;
      color: black;
+     z-index: 10;
+     
 }
-footer #med{
+ #med{
     order: 3;
+    
+    z-index: 10;
 }
-footer #copy a{
+ #copy {
     font-size: 10px;
+   z-index: 10;
 }
 
