@@ -73,9 +73,9 @@
             #cityin{
                
                 height: 380px;
-                width: 100vw;
+                width: 100%;
                 background-image: url(../assests/images/india.jpg);
-                background-size: 100% 380px;
+               background-size: 100% 100%;
                 background-position: -webkit-center;
                 background-repeat: no-repeat;
 
