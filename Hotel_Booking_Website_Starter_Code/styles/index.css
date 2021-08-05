@@ -1,285 +1,147 @@
-
-            *{
-                padding: 0;
-                margin: 0;
-                box-sizing: border-box;
-            }
-            body{
-                            
-                background-color: #e0e0e0;
-                font-family: sans-serif;
-                min-height: 100%;
-                min-height: 100vh;    
-                position: relative;
-            }
-            .btn{
-                z-index: 20;
-            }
-            
-            .btn-light{
-                margin-left: 94%;
-                margin-top: 1.5%; 
-                z-index: 10;
-                position: fixed;
-             }
-            .btn-primary{
-               
-                margin: 2%;
-             }
-            label{
-                padding-top: 2%;
-             }
-            .modal-footer{
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar-fixed-top{
+    background-color: rosybrown;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 12%;
+    z-index: 30;
+    width: 100%;
+}
+#indexlogo{
+    height: 60px;
+    width: 60px;
+}
+#cityin{
+    background-image:url(../assests/images/india.jpg);
+    height: 380px;
+                width: 100%;
                 justify-content: center;
-                padding: 2%;
-                height: 80px;
-             }
-           
-        input[type="text"]{
-            width:300px;
-        }
-        .form-group{
-            display: flex;
-            justify-content: space-around;
-        }
-        #modal-id{
-            margin-top: 10%;
-        }
-       
-        
-            .navbar {
-                overflow: hidden;
-                background-color: rosybrown;
-                position: fixed;
-                top: 0;
-                width: 100%;
-                height: 11vh;
-          }
-             header #indexlogo{
-                position: fixed;
-                height: 60px;
-                width: 60px;
-                margin: 1%;
-               z-index: 10;
-               margin-top: 0.5%;
-                
-            }
-            
-            section{
-                min-height: calc(100vh - 65.69px);
-                padding-bottom: 50px;
-                
-            }
-            #cityin{
-               
-                height: 380px;
-                width: 100%;
-                background-image: url(../assests/images/india.jpg);
+                align-items: center;
                background-size: 100% 100%;
                 background-position: -webkit-center;
                 background-repeat: no-repeat;
+}
 
-               
-            }
-            #cityin input[type=text]:focus{
-                outline: transparent;
-            }
-            a #cityind{
+#cityin input[type=text]:focus{
+    outline: transparent;
+    position: relative;
+    
+}
+ #cityinput{
             
-                border-color: transparent;
-                border-radius: 12px;
-                margin: 15% 35%;
-                width: 30%;
-                padding: 10px;
-                
-                background-color: #f1f1f1;
-                font-size: 16px;
+    border-color: transparent;
+    border-radius: 12px;
+    width: 35%;
+    padding: 10px;
+    background-color: #f1f1f1;
+    font-size: 16px;
+    margin: 190px 35%;
 
-            }
-            
-            #indexmedia{
-                height: 20px;
-                width: 22px;
-                display: inline;
-            }
-           
-            
-            
-            #img{
-                height: 50px;
-                width: 100%;
-                text-align: center;
-                margin-left: .5%;
-                padding-bottom: 100px;
-                
-                
-            }
-            #viewind{
-                text-align: center;
-                text-decoration: none;
-                color: black;
-                
-                
-            }
-            .images{
-                position: relative;
-                display: flex;
-                justify-content: space-evenly;
-                padding: 0 10%;
-            }
-            .img1{
-                margin: 5%;
-                position: relative;
-                
-            }
-            #indeximg1{
-                height: 150px;
-                width: 150px;
-                display: block;
-                
-                border-radius: 25%;
-                box-shadow: 10px 10px 5px gray;
-                
-            }
-            .hover1 a{
-               position: absolute;
-               text-decoration: none;
-              top: 0;
-              left: 0;
-              height: 150px;
-              width: 150px;
-              color: white;
-              border-radius: 25%;
-              background-color:rgba(0, 0,0,0.6);
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: center;
-              opacity: 0;
-           }
-           
-          .hover1 a:hover{
-               opacity: 1;
-              
-           }
-           
-        #indeximg2{
-            height: 150px;
-            width: 150px;
-            display: block;
-            
-            border-radius: 25%;
-            box-shadow: 10px 10px 5px gray;
-            
-        }
-        .hover2{
-            position: absolute;
-            
-           top: 0;
-           left: 0;
-           height: 150px;
-           width: 150px;
-           color: white;
-           text-decoration: none;
-           border-radius: 25%;
-           background-color:rgba(0, 0,0,0.6);
-           display: flex;
-           flex-direction: column;
-           align-items: center;
-           justify-content: center;
-           opacity: 0;
-        }
-        
-       .hover2:hover{
-            opacity: 1;
-           
-        }
-        
-           
-            #indeximg3{
-                height: 150px;
-                width: 150px;
-                display: block;
-                line-height: 0px;
-                border-radius: 25%;
-                box-shadow: 10px 10px 5px gray;
-            }
-            
-            #indeximg4{
-                height: 150px;
-                width: 150px;
-                display: block;
-                line-height: 0px;
-                border-radius: 25%;
-                box-shadow: 10px 10px 5px gray;
-            }
-            #ia{
-                width: 100%;
-                text-decoration: none;
-                color: black;
-                text-align: center;
-                padding: 10px;
-            }
-            #ia a{
-                text-decoration: none;
-                color: black;
-            }
-            
-            
-            .btn-info{
-                margin-left: 2%;
-                
-                
-                margin-top: 1%;
-                z-index: 10;
-                position: fixed;
-                
-             }
-             
-           .form{
-               display: flex;
-           }
-            footer{
-                
-                position: fixed;
-                justify-content: space-between;
-                left: 0;
-                bottom: 0;
-                height: 10vh;
-                width: 100%;
-                background-color: rosybrown;
-               
-                
-            }
-             #foot{
-                display: flex;
-                margin: 1.5% 2%;
-                justify-content: space-between;
-                z-index: 10;
-                
-                width: 97.5%;
-            } 
-           
-            #con{
-                z-index: 10;
-                
-                
-                
-            }
-             #con a{
-                 text-decoration: none;
-                 color: black;
-                 z-index: 10;
-                 
-            }
-             #med{
-                order: 3;
-                
-                z-index: 10;
-            }
-             #copy {
-                font-size: 10px;
-               z-index: 10;
-            }
-            
-            
+}
+#city_container{
+    width: 100%;
+    justify-content: center;
+    height: 380px;
+    align-items: center;
+    
+}
+#indeximg{
+    height: 150px;
+    width: 150px;
+    display: block;
+    border-radius: 25%;
+    box-shadow: 10px 10px 5px gray;
+    
+    
+}
+section{
+    width: 100%;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5%;
+    position: relative;
+    
+
+    }
+.img1{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 2% 4%;
+}
+.hover1 a{
+    position: absolute;
+    text-decoration: none;
+  top: 0;
+  left: 0;
+    
+   height: 150px;
+   width: 150px;
+   color: white;
+   border-radius: 25%;
+   background-color:rgba(0, 0,0,0.6);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   opacity: 0;
+   
+}
+.hover1 a:hover{
+    opacity: 1;
+   
+}
+.hover2{
+    position: absolute;
+    
+   top: 0;
+   left: 0;
+   height: 150px;
+   width: 150px;
+   color: white;
+   text-decoration: none;
+   border-radius: 25%;
+   background-color:rgba(0, 0,0,0.6);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   opacity: 0;
+}
+
+.hover2:hover{
+    opacity: 1;
+   
+}
+#viewmore{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-fixed-bottom{
+    height: 9vh;
+    background-color: rosybrown;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 30;
+}
+#med{
+    order: 3;
+}
+#modal-id3{
+    z-index: 40;
+}
