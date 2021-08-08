@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+}
+
+#log{
+    height: 60px;
+    width: 60px;
+}
+#modal{
+    height: 100%;
+    width: 100%;
+    z-index: 50;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    
+    background-color: rgba(0, 0,0,0.5);
+    visibility:hidden;
+}
+#modalcontent{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+}
+ h4{
+    margin: 3% 0;
+    
+}
+.input1{
+    width: 300px;
+}
+
+ .in{
+     width: 200px;
+ }   
+
+#tab1{
+    display: flex;
+    justify-content: center;
+    }
+#close{
+    cursor: pointer;
+}
+
+#log{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 3% 0 1%;
+    position: absolute;
+    
+}
+#log1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3%;
+}
+#log2{
+    display: flex;
+    justify-content: center; 
+}
+.btn-light{
+    height: 55%;
+    margin: 1%;
+}
+/*footer*/
+#modalFooter{
+    height: 100vh;
+    width: 100%;
+    background-color:rgba(0, 0,0,0.5);
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+#modalcontentFooter{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+}
+#tab2{
+    display: flex;
+    justify-content: start;
+    
+    }
+    #close1{
+        cursor: pointer;
+    }
+
+

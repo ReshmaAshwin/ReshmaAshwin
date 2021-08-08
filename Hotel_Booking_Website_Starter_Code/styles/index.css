@@ -1,20 +1,6 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-.navbar-fixed-top{
-    background-color: rosybrown;
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 12%;
-    z-index: 30;
-    width: 100%;
-}
-#indexlogo{
-    height: 60px;
-    width: 60px;
-}
+
+
+
 #cityin{
     background-image:url(../assests/images/india.jpg);
     height: 380px;
@@ -64,12 +50,26 @@ section{
 .images{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 5%;
+    justify-content: center;
+
     position: relative;
     
 
     }
+     #images1{
+
+    display: none;
+
+    }
+    
+    .imgs{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    position: relative;
+    }
+    
 .img1{
     height: 200px;
     width: 200px;
@@ -125,23 +125,5 @@ section{
     width: 100%;
     display: flex;
     justify-content: center;
-}
-footer{
-    display: flex;
-    justify-content: space-between;
-}
-.navbar-fixed-bottom{
-    height: 9vh;
-    background-color: rosybrown;
-    position: fixed;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    z-index: 30;
-}
-#med{
-    order: 3;
-}
-#modal-id3{
-    z-index: 40;
+    margin-bottom: 70px;
 }
